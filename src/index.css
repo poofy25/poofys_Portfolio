@@ -1,0 +1,54 @@
+body{
+    min-height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1D1C;
+    color: #fff;
+    margin-bottom: 2vh;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    min-height: 100vh;
+    max-height: 100vh;
+    
+}
+#root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+    
+}
+
+/*FOR DESKTOP*/
+@media only screen and (min-width: 768px) {
+.appContainer{
+    position: relative;
+    flex: 1;
+    display:flex;
+
+    padding-top: clamp(25px,3vw,50px);
+    padding-bottom: clamp(25px,3vw,50px);
+    justify-content: center;
+    flex-direction: row;
+overflow-y: hidden;
+transition: 2s ease;
+}
+}
+/*FOR MOBILE*/
+@media only screen and (max-width: 767px) {
+    .appContainer{
+        position: relative;
+        flex: 1;
+        display:flex;
+        padding-top: clamp(25px,3vw,50px);
+        padding-bottom: clamp(25px,3vw,50px);
+        padding-bottom: 17.5vh;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    overflow-y: hidden;
+    transition: 2s ease;
+    }
+    }

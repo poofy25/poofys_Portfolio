@@ -1,0 +1,179 @@
+/*FOR MOBILE*/
+
+@media only screen and (max-width: 768px) {
+    .sideBarContainer{
+        width: 75vw;
+        height: auto;
+        max-height: 125vw;
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        flex-direction: column;
+        transition: 2s ease;
+    }
+    .sideBarImgGradient{
+        width: 75%;
+        aspect-ratio: 21/20;
+        position: relative;
+    }
+    .sideBarImgGradient::after {
+        content: '';
+        position: absolute;
+        left: 0; top: 0;
+        width: 100%;
+        aspect-ratio: 21/20;
+        background: linear-gradient(0deg, rgba(32,33,33,0.5) 25%, rgba(61,87,195,0) 100%);
+      }
+    .sideBarPortofolioImg{
+        width: 100%;
+        aspect-ratio: 21/20;
+        object-fit: cover;  
+        box-shadow: 4px 4px 10px 2px rgb(20, 20, 20);  
+        border-radius: 2px;
+    }
+    
+    .sideBarText{
+        margin: 0;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-align: center;
+        font-size: clamp(15px,8vw,40px);
+    }
+
+    .sideBarFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: auto;
+        position: absolute;
+        bottom: 2.5%;
+    }
+
+
+    
+    .sideBarSocials{
+        margin: 0;
+        margin-top: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    
+    .sideBarSocials > img{
+        filter: invert();
+        object-fit:scale-down;
+        float: left;
+        width: 10%;
+        aspect-ratio: 1;
+    }
+    
+    .sideBarMail{
+        margin: 1rem 0px 0px 0px;
+        font-weight: bold;
+        font-size: clamp(15px,3vw,40px);
+    }
+    
+    .sideBarCopyright{
+        margin: 0;
+        font-weight:normal;
+        font-size: clamp(15px,3vw,40px);
+    }
+}
+
+
+
+
+
+/* FOR DESKTOP*/
+@media only screen and (min-width: 769px) {
+.sideBarContainer{
+    width: 20vw;
+    height: 70vh;
+    max-height: 70vw;
+    position:relative;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+    transition: 2s ease;
+}
+.sideBarImgGradient{
+    width: 75%;
+    aspect-ratio: 21/20;
+    position: relative;
+}
+.sideBarImgGradient::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%;
+    aspect-ratio: 21/20;
+    background: linear-gradient(0deg, rgba(32,33,33,0.5) 25%, rgba(61,87,195,0) 100%);
+  }
+.sideBarPortofolioImg{
+    width: 100%;
+    aspect-ratio: 21/20;
+    object-fit: cover;  
+    box-shadow: 4px 4px 10px 2px rgb(20, 20, 20);  
+    border-radius: 2px;
+}
+
+.sideBarText{
+    margin: 0;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: clamp(15px,2.25vw,40px);
+     display: -webkit-box;   
+   -webkit-line-clamp: 3;   
+   -webkit-box-orient: vertical;     
+   overflow: hidden; 
+}
+
+.sideBarFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: auto;
+}
+
+
+
+.sideBarSocials{
+    margin: 0;
+    margin-top: auto;
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.sideBarSocials > img{
+    filter: invert();
+    object-fit:scale-down;
+    float: left;
+    width: 10%;
+    aspect-ratio: 1;
+}
+
+.sideBarMail{
+    margin: 0.5rem 0px 0px 0px;
+    font-weight: bold;
+    font-size: clamp(12px,1vw,40px);
+}
+
+.sideBarCopyright{
+    margin: 0;
+    font-weight:normal;
+    font-size: clamp(12px,1vw,40px);
+}
+}
