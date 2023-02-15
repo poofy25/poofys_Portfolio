@@ -17,7 +17,7 @@ let splitedText = sideBarText.split('|');
   useEffect(() => {
   setTimeout(()=>{
     
-const text = "Hey! I'm poofy, | I like to codeeeee."
+const text = "Hey! I'm poofy, | I like to code."
 let neededText;
 const interval = setInterval(()=>{
 
