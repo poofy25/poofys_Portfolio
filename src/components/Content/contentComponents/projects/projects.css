@@ -194,7 +194,7 @@
         transition: 0.5s ease-in-out;
         opacity: 0;
         top: 25%;
-        transform: translateY(-100%);
+        transform: translateY(0%);
     }
     .projectDivGithubCode::before{
         content: '<code/>';
