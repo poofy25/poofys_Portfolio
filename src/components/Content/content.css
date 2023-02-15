@@ -6,12 +6,12 @@
 margin-top: clamp(50px,6vw,100px);
 width: 75vw;
 position: relative;
-transition: 2s ease;
 display: flex;
 transition: 2s ease;
 }
 .content{
     width: 100%;
+    transition: all 0.75s ease-in-out;
     height: 100%;
 }
 
