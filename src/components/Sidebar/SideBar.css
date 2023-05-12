@@ -63,12 +63,17 @@
     justify-content: space-evenly;
     align-items: center;
     }
+
+    .sideBarSocials > a {
+        width: 10%;
+        aspect-ratio: 1;
+    }
     
-    .sideBarSocials > img{
+    .sideBarSocials > a >  img{
         filter: invert();
         object-fit:scale-down;
         float: left;
-        width: 10%;
+        width: 100%;
         aspect-ratio: 1;
     }
     
@@ -156,12 +161,16 @@ flex-direction: row;
 justify-content: space-evenly;
 align-items: center;
 }
+.sideBarSocials > a {
+    width: 10%;
+    aspect-ratio: 1;
+}
 
-.sideBarSocials > img{
+.sideBarSocials > a >  img{
     filter: invert();
     object-fit:scale-down;
     float: left;
-    width: 10%;
+    width: 100%;
     aspect-ratio: 1;
 }
 

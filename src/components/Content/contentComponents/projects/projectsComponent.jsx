@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import "./projects.css"
+import storeProjectImage from '/src/assets/storeProjectImage.png'
 import caseSimulatorProjectImage from '/src/assets/caseSimulatorProjectImage.png'
 import weatherAppProjectImage from '/src/assets/weatherAppProjectImage.png'
 
@@ -14,7 +15,13 @@ function ProjectsComponent() {
    <div className='projectComponentContainer'>
 
    <p className='contentPageName'>PROJECTS</p>
- 
+   <ProjectDivComponent   
+   projectName="Ecommerce website"
+   projectImage={storeProjectImage}
+   projectDescription="An ecommerce clothing website featuring 45 products with authetification and cart logic. "
+   projectWebLink="https://poofy25.github.io/online-shop/"
+   projectCodeLink="https://github.com/poofy25/online-shop"
+   />
    <ProjectDivComponent   
    projectName="Case Simulator"
    projectImage={caseSimulatorProjectImage}

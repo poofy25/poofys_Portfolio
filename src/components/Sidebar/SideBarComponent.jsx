@@ -52,9 +52,9 @@ setSideBarText(neededText)
 
 <footer className='sideBarFooter'>
 <div className='sideBarSocials'>
-   <img src={linkedinIcon}/>
-   <img src={instagramIcon}/>
-   <img src={githubIcon}/>
+  <a target="_blank" href='https://www.linkedin.com/in/buza-cristian-3006b8266'><img src={linkedinIcon}/></a>
+  <a target="_blank" href='https://instagram.com/poofy_25?igshid=ZWQyN2ExYTkwZQ=='><img src={instagramIcon}/></a> 
+  <a target="_blank" href='https://github.com/poofy25'><img src={githubIcon}/></a> 
 </div>
 
 <a className='sideBarMail'>poofy25dev@gmail.com</a>
